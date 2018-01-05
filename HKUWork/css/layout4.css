@@ -1,0 +1,29 @@
+*{
+	background-color: pink;
+}
+h1{
+	margin-bottom: 400px;
+}
+#myHead{
+	display: none;
+}
+.wrapper{
+	background-image: url("http://www.artiestenplanner.nl/Files/artists/mega-mindy-1.jpg");
+}
+.goofy{
+	margin: auto;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Goofy.svg/690px-Goofy.svg.png");
+	width: 900px;
+	height: 600px;
+}
+.menuBox{
+	display: none;
+}
+
+body{
+	position: relative;
+}
+
+p{
+	color: yellow;
+}
