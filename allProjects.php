@@ -55,7 +55,7 @@
 		-->
 		<h2>Black Wolf Valley (2017):</h2>
 		<section class="container">
-			<p>
+			<p> 
 				<b>Team size:</b> 		1</br>
 				<b>Time to produce:</b> 3 months</br>
 				<b>Game Engine:</b>  	Unity</br>
