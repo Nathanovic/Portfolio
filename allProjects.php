@@ -4,7 +4,6 @@
 	<div class="wrapper">
 		<?php include("base.php");?>
 		<script src="js/projectScroller.js"></script>
-		<script src="js/vidPlayer.js"></script>
 		<!--
 		<h2 class="contentTitle">Toelatingsopdracht HKU(2016):</h2>
 		<section class="container">
@@ -96,43 +95,37 @@
 		
 		<h2>Rabbitor (2017):</h2>
 		<section class="container">
-			<h4>
+			<p>
 				<b>Team size:</b> 		2</br>
-				<b>My role:</b> 		(Lead)programmer</br>
+				<b>My role:</b> 		programmer</br>
 				<b>Time to produce:</b> 1 month</br>
 				<b>Game Engine:</b>  	Unity</br>
 				<b>Major contributions:</b>
-			</h4>
+			</p>
 			<ul class="projectsSOText">
-				<li>Camera controls code</li>
-				<li>Player mechanics code</li>				
-				<li>AI behaviour code</li>
+				<li>Camera controls:</li>
+				<video class="projectVidSmall" controls>
+					<source class="vid" src="images/Rabbitor/RabbitorCamera.mp4" type="video/ogg" title="camera" alt="Rabbitor camera">
+					Your browser does not support the video tag.
+				</video>
+				<li>Player mechanics:</li>		
+				<video class="projectVidSmall" controls>
+					<source class="vid" src="images/Rabbitor/RabbitorCharge.mp4" type="video/mp4" title="charge mechanic" alt="Rabbitor charge mechanic">
+					Your browser does not support the video tag.
+				</video></br>		
+				<li>AI behaviour</li>
 			</ul>
 			
-			</br><h4>Gameplay:</h4>
-			
-			<video class="projectVidSmall" controls>
-				<source src="images/Rabbitor/RabbitorCamera.mp4" type="video/ogg" title="camera" alt="Rabbitor camera">
-				Your browser does not support the video tag.
-			</video>
-			<video class="projectVidSmall floatRight" controls>
-				<source src="images/Rabbitor/RabbitorAI.mp4" type="video/mp4" title="kill AI mechanic" alt="Rabbitor ai-kill">
-				Your browser does not support the video tag.
-			</video></br>			
-			
+			</br><h4>Story & gameplay description:</h4>
 			<p>
-				In this game you play as a knight on a rabbit. Your goal is to bring your lance to your king. You must first use this lance
-				to kill the enemies who are desperately eager to steal it.</br>
-			<video class="projectVidSmall" controls>
-				<source src="images/Rabbitor/RabbitorCharge.mp4" type="video/mp4" title="charge mechanic" alt="Rabbitor charge mechanic">
-				Your browser does not support the video tag.
-			</video></br>
+				In this game you play as a knight on a rabbit. Your goal is to bring your lance to your king. To do so, you first have to use this lance
+				against enemies who are desperately eager to steal it.</br>
 				This game can be played with an XBox controller or with mouse and keyboard
 			</p>
 			<!-- <img class="projectImg" src="images/DarkWorld/darkWorld4.jpg" title="Dark World" alt="dark world_1"/><br/> -->
 			</br><h4>Proces:</h4>
 			<p>
-				I created this game together with my brother, a skilled game designer. We had as an ambition to create a game in which the user has
+				I created this game together with my brother, a skilled game designer. We had as an ambition to create a game in which the user
 				experiences a lot of control over what happens with the character.
 				The thing that I am most proud of about this game is that I re-invented the <i>template method</i>. 
 				This system helped me to add character-features in a very modular way(The PlayerController Class inherits from the Character class):
@@ -142,8 +135,8 @@
 			
 			</br><h4>Sources:</h4>
 			<p>
-				Executable + Data folder (zip-format):</br>
-				<a href="projectSources/RabbitorCode.zip" target="blank">Source code examples (zip-format)</a>
+				<a href="Webbuilds/Rabbitor" target="blank"> 				HTML5 playable prototype:			</a></br>
+				<a href="projectSources/RabbitorCode.zip" target="blank">	Source code examples (zip-format)	</a>
 			</br>
 			</p>
 		</section>
