@@ -135,7 +135,7 @@
 			
 			</br><h4>Sources:</h4>
 			<p>
-				<a href="Webbuilds/Rabbitor" target="blank"> 				HTML5 playable prototype:			</a></br>
+				<a href="HTML5/RabbitorWeb" target="blank"> 				HTML5 playable prototype:			</a></br>
 				<a href="projectSources/RabbitorCode.zip" target="blank">	Source code examples (zip-format)	</a>
 			</br>
 			</p>
